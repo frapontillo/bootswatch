@@ -4,7 +4,7 @@ branches:
     - master
 
 language: node_js
- node_js:
-   - "0.8.11"
+  node_js:
+    - "0.8.11"
 
  script: "npm --version"

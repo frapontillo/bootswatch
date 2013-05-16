@@ -1,7 +1,7 @@
 @import url('//fonts.googleapis.com/css?family=Droid+Sans:400,700');
 
 /*!
- * Bootstrap v2.3.0
+ * Bootstrap v2.3.1
  *
  * Copyright 2012 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -6373,6 +6373,10 @@ div.subnav-fixed {
   border-color: transparent;
 }
 
+.nav-tabs li.disabled > a {
+  color: #999999;
+}
+
 .nav-tabs .open .dropdown-toggle {
   background-color: #060606;
   border-color: transparent;
@@ -6381,6 +6385,10 @@ div.subnav-fixed {
 .nav-pills li > a:hover {
   color: #ffffff;
   background-color: #33b5e5;
+}
+
+.nav-pills li.disabled > a {
+  color: #999999;
 }
 
 .nav-pills .open .dropdown-toggle {

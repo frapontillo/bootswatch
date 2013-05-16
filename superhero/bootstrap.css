@@ -1,7 +1,7 @@
 @import url('//fonts.googleapis.com/css?family=Oswald|Noticia+Text');
 
 /*!
- * Bootstrap v2.3.0
+ * Bootstrap v2.3.1
  *
  * Copyright 2012 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -5386,7 +5386,7 @@ input[type="submit"].btn.btn-mini {
   padding: 1px;
   text-align: left;
   white-space: normal;
-  background-color: #ffffff;
+  background-color: #45515f;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 6px;
@@ -5422,8 +5422,8 @@ input[type="submit"].btn.btn-mini {
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
-  background-color: #f7f7f7;
-  border-bottom: 1px solid #ebebeb;
+  background-color: #3f4956;
+  border-bottom: 1px solid #343d47;
   -webkit-border-radius: 5px 5px 0 0;
      -moz-border-radius: 5px 5px 0 0;
           border-radius: 5px 5px 0 0;
@@ -5468,7 +5468,7 @@ input[type="submit"].btn.btn-mini {
 .popover.top .arrow:after {
   bottom: 1px;
   margin-left: -10px;
-  border-top-color: #ffffff;
+  border-top-color: #45515f;
   border-bottom-width: 0;
 }
 
@@ -5484,7 +5484,7 @@ input[type="submit"].btn.btn-mini {
 .popover.right .arrow:after {
   bottom: -10px;
   left: 1px;
-  border-right-color: #ffffff;
+  border-right-color: #45515f;
   border-left-width: 0;
 }
 
@@ -5500,7 +5500,7 @@ input[type="submit"].btn.btn-mini {
 .popover.bottom .arrow:after {
   top: 1px;
   margin-left: -10px;
-  border-bottom-color: #ffffff;
+  border-bottom-color: #45515f;
   border-top-width: 0;
 }
 
@@ -5516,7 +5516,7 @@ input[type="submit"].btn.btn-mini {
 .popover.left .arrow:after {
   right: 1px;
   bottom: -10px;
-  border-left-color: #ffffff;
+  border-left-color: #45515f;
   border-right-width: 0;
 }
 
@@ -6388,7 +6388,7 @@ div.subnav .nav > .active > a:hover .caret {
 }
 
 .nav-list > li > a,
-.nav-list .nav-header {
+.nav-list > .nav-header {
   color: #ece9d7;
   text-shadow: none;
 }
@@ -6427,14 +6427,22 @@ div.subnav .nav > .active > a:hover .caret {
   border-color: transparent;
 }
 
+.nav-tabs li.disabled > a:hover {
+  background-color: #45515f;
+}
+
 .nav-pills > li > a {
   color: #ece9d7;
   background-color: #45515f;
 }
 
-.nav-pills > li:hover > a {
+.nav-pills > li > a:hover {
   background-color: #5a6a7d;
   border-color: transparent;
+}
+
+.nav-pills > .disabled > a:hover {
+  background-color: #45515f;
 }
 
 .nav-tabs .open .dropdown-toggle,
@@ -6509,13 +6517,15 @@ div.subnav .nav > .active > a:hover .caret {
   background: #3a4450;
 }
 
-.pager a {
+.pager li > a,
+.pager li > span {
   color: #ece9d7;
   background-color: #45515f;
-  border-color: transparent;
+  border: none;
 }
 
-.pager a:hover {
+.pager li > a:hover,
+.pager li > span:hover {
   background: #5a6a7d;
 }
 

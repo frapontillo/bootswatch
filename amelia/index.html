@@ -35,7 +35,7 @@
   </head>
 
   <body class="preview" id="top" data-spy="scroll" data-target=".subnav" data-offset="80">
-    <script src="../js/bsa.js"></script>
+    <!-- <script src="../js/bsa.js"></script> -->
 
 
   <!-- Navbar
@@ -56,21 +56,21 @@
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Preview <b class="caret"></b></a>
             <ul class="dropdown-menu" id="swatch-menu">
-              <li><a href="../default">Default</a></li>
+              <li><a href="../default/">Default</a></li>
               <li class="divider"></li>
-              <li><a href="../amelia">Amelia</a></li>
-              <li><a href="../cerulean">Cerulean</a></li>
-              <li><a href="../cosmo">Cosmo</a></li>
-              <li><a href="../cyborg">Cyborg</a></li>
-              <li><a href="../journal">Journal</a></li>
-              <li><a href="../readable">Readable</a></li>
-              <li><a href="../shamrock">Shamrock</a></li>
-              <li><a href="../simplex">Simplex</a></li>
-              <li><a href="../slate">Slate</a></li>
-              <li><a href="../spacelab">Spacelab</a></li>
-              <li><a href="../spruce">Spruce</a></li>
-              <li><a href="../superhero">Superhero</a></li>
-              <li><a href="../united">United</a></li>
+              <li><a href="../amelia/">Amelia</a></li>
+              <li><a href="../cerulean/">Cerulean</a></li>
+              <li><a href="../cosmo/">Cosmo</a></li>
+              <li><a href="../cyborg/">Cyborg</a></li>
+              <li><a href="../flatly/">Flatly</a></li>
+              <li><a href="../journal/">Journal</a></li>
+              <li><a href="../readable/">Readable</a></li>
+              <li><a href="../simplex/">Simplex</a></li>
+              <li><a href="../slate/">Slate</a></li>
+              <li><a href="../spacelab/">Spacelab</a></li>
+              <li><a href="../spruce/">Spruce</a></li>
+              <li><a href="../superhero/">Superhero</a></li>
+              <li><a href="../united/">United</a></li>
             </ul>
           </li>
           <li class="dropdown" id="preview-menu">
@@ -104,9 +104,21 @@
       <h1>Amelia</h1>
       <p class="lead">Sweet and cheery.</p>
     </div>
-    <div class="span6">
-      <div class="bsa well">
+    <div class="span4 offset2">
+<!--       <div class="bsa well">
           <div id="bsap_1277971" class="bsarocks bsap_c466df00a3cd5ee8568b5c4983b6bb19"></div>
+      </div> -->
+      <div class="well" style="padding: 15px 15px 0 15px;">
+        <a href="http://carboncostume.com/apple-store-genius/" target="_blank">
+          <span style="float: left; margin: 0 15px 15px 0;">
+            <img src="../img/carboncostume.png" width="175" height="135" style="border-radius: 5px;">
+          </span>
+        </a>
+        <a href="http://carboncostume.com" target="_blank">
+          <h4 style="margin-bottom: 0.4em; color: #fff;">Carbon Costume</h4>
+          <span style="display: block; margin-bottom: 1em; color: #fff;">DIY costumes using everyday gear.</span>
+        </a>
+        <div style="clear:both"></div>
       </div>
     </div>
   </div>
@@ -581,8 +593,8 @@
               <span class="help-inline">Woohoo!</span>
             </div>
           </div>
-          <div class="control-group success">
-            <label class="control-label" for="selectError">Select with success</label>
+          <div class="control-group info">
+            <label class="control-label" for="selectError">Select with info</label>
             <div class="controls">
               <select id="selectError">
                 <option>1</option>
@@ -713,7 +725,7 @@
       <ul class="nav nav-tabs">
         <li class="active"><a href="#A" data-toggle="tab">Section 1</a></li>
         <li><a href="#B" data-toggle="tab">Section 2</a></li>
-        <li><a href="#C" data-toggle="tab">Section 3</a></li>
+        <li class="disabled"><a href="#" data-toggle="tab">Section 3</a></li>
       </ul>
       <div class="tabbable">
         <div class="tab-content">
@@ -890,7 +902,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../js/jquery.smooth-scroll.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/bootswatch.js"></script>
 

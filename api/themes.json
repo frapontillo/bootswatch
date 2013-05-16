@@ -1,5 +1,5 @@
 {
-	"version": "2.3.0+1",
+	"version": "2.3.1",
 	
 	"themes": [
 	
@@ -53,6 +53,19 @@
 			"less": "http://bootswatch.com/cyborg/bootswatch.less",
 			"less-variables": "http://bootswatch.com/cyborg/variables.less",
 			"lessVariables": "http://bootswatch.com/cyborg/variables.less"
+		},
+	
+		{
+			"name": "Flatly",
+			"description": "Flat and clean.",
+			"thumbnail": "http://bootswatch.com/flatly/thumbnail.png",
+			"preview": "http://bootswatch.com/flatly/",
+			"css": "http://bootswatch.com/flatly/bootstrap.css",
+			"css-min": "http://bootswatch.com/flatly/bootstrap.min.css",
+			"cssMin": "http://bootswatch.com/flatly/bootstrap.min.css",
+			"less": "http://bootswatch.com/flatly/bootswatch.less",
+			"less-variables": "http://bootswatch.com/flatly/variables.less",
+			"lessVariables": "http://bootswatch.com/flatly/variables.less"
 		},
 	
 		{

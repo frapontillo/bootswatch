@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Crete+Round);
 
 /*!
- * Bootstrap v2.3.0
+ * Bootstrap v2.3.1
  *
  * Copyright 2012 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -6159,15 +6159,18 @@ a.badge:focus {
   position: fixed;
 }
 
-h1 > small,
-h2 > small,
-h3 > small,
-h4 > small,
-h5 > small,
-h6 > small,
-.muted {
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #333333;
+}
+
+.muted {
+  color: #999999;
 }
 
 .jumbotron h1 {
@@ -6725,12 +6728,21 @@ select {
 
 .modal-header {
   padding: 12px 15px 6px;
+  color: #ffffff;
   background-color: #015b4e;
+}
+
+.modal-header h1,
+.modal-header h2,
+.modal-header h3,
+.modal-header h4,
+.modal-header h5,
+.modal-header h6 {
+  color: #ffffff;
 }
 
 .modal-body,
 .modal-footer {
-  background-color: #333333;
   border: none;
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
@@ -6740,6 +6752,10 @@ select {
 .modal-body label,
 .modal-footer label {
   color: #555555;
+}
+
+.modal-footer {
+  background-color: #dddddd;
 }
 
 .popover-title {

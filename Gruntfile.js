@@ -16,7 +16,7 @@ module.exports = function (grunt) {
 						' * @license <%= pkg.license %>' + ' */'
 		},
 		swatch: {
-			amelia:{}, cerulean:{}, cosmo:{}, cyborg:{}, journal:{}, readable:{}, shamrock:{},
+			amelia:{}, cerulean:{}, cosmo:{}, cyborg:{}, flatly:{}, journal:{}, readable:{},
 			simplex:{}, slate:{}, spacelab:{}, spruce:{}, superhero:{}, united:{}
 		},
 		clean: {
@@ -105,5 +105,9 @@ module.exports = function (grunt) {
 	grunt.registerMultiTask('swatch', 'build a theme, both not responsive and responsive', function() {
 		var t = this.target;
 		grunt.task.run('build:'+t, 'build-responsive:'+t);
+	});
+	
+	grunt.registerTask('default', 'build a theme, both not responsive and responsive', function() {
+		grunt.task.run('swatch');
 	});
 };

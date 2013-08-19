@@ -7,7 +7,7 @@ module.exports = function (grunt) {
 	// Project configuration.
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		builddir: '.',
+		builddir: 'build',
 		meta: {
 			banner: '/**\n' +
 						' * <%= pkg.description %>\n' +
@@ -18,7 +18,7 @@ module.exports = function (grunt) {
 		},
 		swatch: {
 			amelia:{}, cerulean:{}, cosmo:{}, cyborg:{}, flatly:{}, journal:{},
-			readable:{}, simplex:{}, slate:{}, spacelab:{}, superhero:{}, united:{},
+			readable:{}, simplex:{}, slate:{}, spacelab:{}, united:{},
 			custom:{}
 		},
 		clean: {
@@ -56,8 +56,8 @@ module.exports = function (grunt) {
 		var dist = {};
 		concatSrc = 'global/build.less';
 		concatDest = theme + '/build.less';
-		recessDest = '<%=builddir%>/' + theme + '/bootstrap.css';
 		recessSrc = [ theme + '/' + 'build.less' ];
+		recessDest = '<%=builddir%>/' + theme + '/bootstrap.css';
 
 		dist = {src: concatSrc, dest: concatDest};
 		grunt.config('concat.dist', dist);
